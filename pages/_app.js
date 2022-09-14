@@ -1,4 +1,4 @@
-import "bootswatch/dist/cosmo/bootstrap.css"
+import "bootswatch/dist/cosmo/bootstrap.min.css"
 
 function MyApp({ Component, pageProps }){
     return <Component { ...pageProps} />
