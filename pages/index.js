@@ -13,7 +13,7 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Julian De Lisio</h1>
-              <h3>Fullstack Developer</h3>
+              <h3>Fullstack Developer Jr</h3>
               <p>lorem ipsum dolor sit amet, consectetur adipis lorem ipsum dolor sit amet, consectetur adipis</p>
               <a href="/hireme">Hire Me!</a>
             </div>
