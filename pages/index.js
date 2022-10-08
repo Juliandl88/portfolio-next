@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import { skills } from "../profile.js"
 
 const Index = () => (
   <Layout>
@@ -12,7 +13,7 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Julian De Lisio</h1>
-              <h3>Fullstack Developer</h3>
+              <h3>Fullstack Developer JR</h3>
               <p>
                 lorem ipsum dolor sit amet, consectetur adipis lorem ipsum dolor
                 sit amet, consectetur adipis
