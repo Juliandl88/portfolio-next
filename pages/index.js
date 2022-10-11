@@ -63,7 +63,7 @@ const Index = () => (
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Experiences</h1>
+            <h1>Experience</h1>
 
             <ul>
 
