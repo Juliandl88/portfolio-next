@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
-import { skills, experiences } from "../profile.js";
+import { skills, experiences, projects } from "../profile.js";
 import "bootswatch/dist/slate/bootstrap.min.css";
 
 const Index = () => (
@@ -66,12 +66,52 @@ const Index = () => (
             <h1>Experience</h1>
 
             <ul>
-
+              {experiences.map(({ title, description, from, to }, index) => (
+                <li key={index}>
+                  <h3>{title}</h3>
+                  <h5>
+                    {from}-{to}
+                  </h5>
+                  <p>{description}</p>
+                </li>
+              ))}
             </ul>
+            <Link href="/experiences">
+              <a className="btn btn-light">Know more</a>
+            </Link>
           </div>
         </div>
       </div>
     </section>
+    {/* Portfolio */}
+
+    <div className="row">
+      <div className="col-md-12">
+        <div className="card card-body bg-dark">
+          <div className="row">
+            <div className="col-md-12 my-2">
+              <h1 className="text-center text-light">Portfolio</h1>
+            </div>
+            {projects.map(({ name, description, image }, index) => (
+              <div className="col-md-4 p-2" key={index}>
+                <div className="card h-100">
+                  <div className="overflow">
+                    <img src={`/${image}`} alt="" className="card-img-top" />
+                  </div>
+                  <div className="card-body">
+                    <h3>{name}</h3>
+                    <p>{description}</p>
+                    <Link href="/experiences">
+                      <a className="btn btn-light">Know more</a>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 );
 

@@ -47,3 +47,37 @@ export const experiences = [
     from: 2010,
   }
 ];
+
+export const projects = [
+    {
+        name: "Awesome website 1",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio1.jpeg"
+    },
+    {
+        name: "Awesome website 2",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio2.jpg"
+    },
+    {
+        name: "Awesome website 3",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio4.png"
+    },
+    {
+        name: "Awesome website 4",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio4.png"
+    },
+    {
+        name: "Awesome website 5",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio5.jpeg"
+    },
+    {
+        name: "Awesome website 6",
+        description: "Deserunt laboris irure irure pariatur tempor aute duis sunt do. Laborum commodo elit qui magna velit sint velit minim laboris. Cillum ea duis labore aute aliqua fugiat officia fugiat ullamco ipsum ut occaecat laborum.",
+        image: "portfolio6.jpeg"
+    }
+
+]
