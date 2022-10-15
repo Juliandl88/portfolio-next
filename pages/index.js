@@ -63,7 +63,7 @@ const Index = () => (
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Experience</h1>
+            <h1>Experience </h1>
 
             <ul>
               {experiences.map(({ title, description, from, to }, index) => (
@@ -71,12 +71,12 @@ const Index = () => (
                   <h3>{title}</h3>
                   <h5>
                     {from}-{to}
-                  </h5>
+                  </h5> 
                   <p>{description}</p>
                 </li>
               ))}
             </ul>
-            <Link href="/experiences">
+            <Link href="/">
               <a className="btn btn-light">Know more</a>
             </Link>
           </div>
@@ -110,6 +110,16 @@ const Index = () => (
             ))}
           </div>
         </div>
+
+              <div className="col-md-12">
+                <div className="text-center m-2">
+                <Link href="/portfolio">
+                      <a className="btn btn-outline-light">More projects</a>
+                    </Link>
+                </div>
+
+              </div>
+
       </div>
     </div>
   </Layout>
