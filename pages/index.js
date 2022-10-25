@@ -15,7 +15,7 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Julian De Lisio</h1>
-              <h3>Fullstack Developer Jr</h3>
+              <h3>Fullstack Developer JR</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae atque ullam perferendis harum, nisi porro voluptate,
