@@ -77,7 +77,7 @@ const Index = () => (
               ))}
             </ul>
             <Link href="/">
-              <a className="btn btn-light">Know more</a>
+              <a className="btn btn-light">KNOW MORE</a>
             </Link>
           </div>
         </div>
