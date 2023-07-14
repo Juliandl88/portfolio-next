@@ -26,7 +26,7 @@ const Github = ({ user, statusCode }) => {
               target="_blank"
               className="btn btn-outline-secondary"
             >
-              Go to Github 
+              Go to Github  Code form
             </a>
           </div>
         </div>
