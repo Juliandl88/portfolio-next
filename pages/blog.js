@@ -13,7 +13,7 @@ const PostCard = ({ post }) => (
         <h1>{post.title}</h1>
         <p>{post.content}</p>
         <Link href={`/post?title=${post.title}`}>
-          <button className="btn btn-light">Readme</button>
+          <button className="btn btn-light">Leeme</button>
         </Link>
       </div>
     </div>
