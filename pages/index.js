@@ -20,7 +20,7 @@ const Index = () => (
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae atque ullam perferendis harum, nisi porro voluptate,
                 iste consequuntur enim reprehenderit architecto consectetur cum?
-                Totam ad molestias natus illum illo officia.
+                Totam ad molestias natus illum illo officia...
               </p>
               <Link href="/hireme">
                 <a className="btn btn-outline-light">Hire Me</a>
